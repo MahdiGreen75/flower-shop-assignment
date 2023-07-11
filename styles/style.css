@@ -149,3 +149,83 @@
     height: 260x;
     margin: 0 auto;
 }
+
+/* Instagram part desinging */
+
+.insta-container {
+    text-align: center;
+}
+
+.insta-container>img {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    margin: 0 15px;
+}
+
+/* Deals container styeling  */
+.email-field-container {
+    background-image: url("../images/rectangle-img/Rectangle\ 9.png");
+    background-size: 100% 100%;
+    width: 89%;
+    height: 40vh;
+}
+
+#email-input {
+    border-radius: 8px;
+    background: #FFF;
+    width: 55%;
+    padding: 20px;
+
+}
+
+.email-field-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.email-field-container form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* footer section design */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #111010;
+    width: 100%;
+    height: 30vh;
+}
+
+.footer-h1 {
+    color: white;
+}
+
+.footer-red {
+    color: red;
+}
+
+.para-footer {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright-para {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
