@@ -67,15 +67,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+
 }
 
 .flower-1 {
     background-image: url("../images/rectangle-img/Rectangle\ 4.png")
 }
+
 .flower-2 {
     background-image: url("../images/rectangle-img/Rectangle\ 5.png")
 }
+
 .flower-3 {
     background-image: url("../images/rectangle-img/Rectangle\ 6.png")
 }
@@ -100,5 +102,50 @@
 .flower-container {
     display: flex;
     justify-content: space-evenly;
-    
+
+}
+
+/* flower delivery section styles */
+.flower-delivery {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 40px auto;
+}
+
+.delivery-container {
+    text-align: center;
+}
+
+/* hot heal container styles */
+
+.hot-deal-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hot-deal-right-part,
+.hot-deal-left-part {
+    width: 40%;
+}
+
+.hot-deal-right-part img {
+    display: block;
+    width: 180px;
+    height: 260x;
+    margin: 0 auto;
 }
