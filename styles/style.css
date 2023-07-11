@@ -1,6 +1,8 @@
 /* Resetting styles */
 * {
-    border: 1px solid red;
+    /* border: 1px solid red;
+     /* * (this style is for testing
+     *the layout on screen.) */ */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,6 +14,9 @@
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
+    color: white;
+    border: none;
+    font-weight: 900;
 }
 
 .para-describe {
@@ -25,9 +30,9 @@
 
 .h2-heading {
     color: #272727;
-    font-size: 40px;
-    font-weight: 800;
+    font-weight: 900;
     text-align: center;
+    margin-top: 80px;
 }
 
 /* header styles */
@@ -36,7 +41,6 @@
     height: 70vh;
     background: rgba(229, 84, 115, 0.10);
     padding: 50px 240px;
-    border: 1px solid red;
     background-image: url(../images/bg-img/pngwing\ 10.png);
     background-repeat: no-repeat;
     background-position: right 100px bottom 0;
@@ -45,16 +49,19 @@
 
 .h1-heading {
     margin-bottom: 12px;
+    font-weight: 900;
 }
-
+.head-p {
+    text-align: left;
+}
 .main-header-left {
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 40%;
-    border: 1px solid red;
     left: 100px;
+    top: 85px;
 }
 
 /* Featured flower container Styles */
@@ -95,7 +102,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     width: 30%;
 }
 
@@ -112,7 +118,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 70%;
+    width: 80%;
+    height: 25vh;
     margin: 40px auto;
 }
 
@@ -124,11 +131,15 @@
 
 .hot-deal-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     background-color: rgba(229, 84, 115, 0.05);
+}
+
+.header-text-off {
+    color: #E55473;
 }
 
 .hot-deal-left-part {
@@ -164,6 +175,10 @@
 }
 
 /* Deals container styeling  */
+.deals-container {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
 .email-field-container {
     background-image: url("../images/rectangle-img/Rectangle\ 9.png");
     background-size: 100% 100%;
@@ -173,10 +188,10 @@
 
 #email-input {
     border-radius: 8px;
-    background: #FFF;
+    background-color: white;
     width: 55%;
     padding: 20px;
-
+    border: none;
 }
 
 .email-field-container {
@@ -207,6 +222,7 @@ footer {
 
 .footer-h1 {
     color: white;
+    margin-bottom: 10px;
 }
 
 .footer-red {
@@ -217,9 +233,9 @@ footer {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
-
+    margin-bottom: 10px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .copyright-para {
